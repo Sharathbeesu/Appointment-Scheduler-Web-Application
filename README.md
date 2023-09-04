@@ -1,3 +1,14 @@
+
+</head>
+<body>
+    <div class="header">
+        <h1>Appointment Scheduler Web Application</h1>
+    </div>
+    <!-- Rest of your content goes here -->
+</body>
+</html>
+
+
 ### Project Structure:
 
 Here's the structure of your project with all the components and features:
