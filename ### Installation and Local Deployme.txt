@@ -1,0 +1,97 @@
+### Installation and Local Deployment
+
+Follow these steps to set up and run the Appointment Scheduler web application locally:
+
+**1. Clone the Repository:**
+
+Clone the project repository from GitHub to your local machine using the following command:
+
+```bash
+git clone https://github.com/your-username/appointment-scheduler.git
+
+2. Navigate to the Project Directory:
+
+Change your working directory to the project folder:
+cd appointment-scheduler
+
+Install Dependencies:
+
+Install the necessary dependencies for both the frontend and backend components. Start with the root directory (project folder) and then navigate to the "client" folder:
+# Install backend dependencies
+npm install
+
+# Navigate to the client folder
+cd client
+
+# Install frontend dependencies
+npm install
+Database Configuration:
+
+Configure your MySQL database by modifying the config/db.js file with your database details. Ensure you have created a database for the project.
+
+Start the Backend Server:
+
+Return to the project root directory and start the backend server:
+
+
+# Navigate back to the project root directory
+cd ..
+
+# Start the backend server
+npm start
+Start the Frontend Development Server:
+
+Navigate to the "client" folder and start the frontend development server:
+
+# Navigate to the client folder
+cd client
+
+# Start the frontend development server
+npm start
+
+Start the Frontend Development Server:
+
+Navigate to the "client" folder and start the frontend development server:
+
+# Navigate to the client folder
+cd client
+
+# Start the frontend development server
+npm start
+
+Access the Application:
+
+Open your web browser and go to http://localhost:3000 to access the Appointment Scheduler web application.
+Testing
+To test the application, follow these steps:
+
+1. User-Facing Features:
+
+Navigate to the calendar view and select a date.
+Try booking an appointment and verify that you receive a confirmation email.
+2. Consultant-Facing Features:
+
+Access the consultant's availability management interface.
+Set working hours, breaks, and days off.
+3. Additional Features:
+
+Test availability constraints by trying to book appointments outside consultant availability hours.
+4. Scalability Considerations:
+
+Simulate a high volume of users and appointments to test the application's scalability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
