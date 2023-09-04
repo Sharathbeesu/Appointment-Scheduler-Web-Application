@@ -84,4 +84,4 @@ appointment-scheduler/ (Root Directory)
    - Availability Management component allows them to set working hours, breaks, and days off.
 
 3. Availability Constraint and Scalability Considerations are implemented to enhance the application's functionality and performance.
-4. 
+
